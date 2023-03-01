@@ -1,0 +1,15 @@
+---
+title: Hypnosis
+f_logo-client:
+  url: >-
+    https://uploads-ssl.webflow.com/63d8024f6ef3af4635a47d8a/63fe1e707837c808d2d739ef_logo%20white%201%201.png
+  alt: null
+slug: hypnosis
+updated-on: '2023-02-28T15:32:02.249Z'
+created-on: '2023-02-28T15:32:02.249Z'
+published-on: '2023-02-28T16:34:43.527Z'
+layout: '[clients].html'
+tags: clients
+---
+
+

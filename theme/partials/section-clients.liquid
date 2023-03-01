@@ -1,0 +1,23 @@
+<div class="section-clients">
+        <div class="padding-bottom padding-medium">
+          <div class="client-collection-wrapper">
+            <div class="client-foreground"></div>
+            {%- assign collection = collections.clients | sort: "-created-on" -%}<div class="clients-list-wrapper w-dyn-list">
+              {%- unless collection.length == 0 -%}<div role="list" class="clients-list w-dyn-items">
+                {%- for item in collection -%}<div role="listitem" class="client-image-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:991,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;3431.58349609375px&quot;}]" src="{{ item.data.f_logo-client.url }}" alt="{{ item.data.title }}" class="client-image"></div>{%- endfor -%}
+              </div>{%- endunless -%}
+              {%- if collection.length == 0 -%}<div class="w-dyn-empty">
+                <div>{{ texts.3d503d2b }}</div>
+              </div>{%- endif -%}
+            </div>
+            {%- assign collection = collections.clients | sort: "-created-on" -%}<div class="clients-list-wrapper-2 w-dyn-list">
+              {%- unless collection.length == 0 -%}<div role="list" class="clients-list-2 w-dyn-items">
+                {%- for item in collection -%}<div role="listitem" class="client-image-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:991,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;3431.58349609375px&quot;}]" src="{{ item.data.f_logo-client.url }}" alt="{{ item.data.title }}" class="client-image"></div>{%- endfor -%}
+              </div>{%- endunless -%}
+              {%- if collection.length == 0 -%}<div class="w-dyn-empty">
+                <div>{{ texts.3d503d2b }}</div>
+              </div>{%- endif -%}
+            </div>
+          </div>
+        </div>
+      </div>

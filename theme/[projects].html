@@ -38,282 +38,8 @@ body .transition {display: block;}
         }</style></head>
 <body>
   <div class="page-wrapper">
-    <div class="global-styles">
-      <div class="global-styles w-embed">
-        <style>
-/* Make text look crisper and more legible in all browsers */
-body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
-/* Focus state style for keyboard navigation for the focusable elements */
-*[tabindex]:focus-visible,
-  input[type="file"]:focus-visible {
-   outline: 0.125rem solid #4d65ff;
-   outline-offset: 0.125rem;
-}
-/* Get rid of top margin on first element in any rich text element */
-.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
-  margin-top: 0 !important;
-}
-/* Get rid of bottom margin on last element in any rich text element */
-.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
-	margin-bottom: 0 !important;
-}
-/* Prevent all click and hover interaction with an element */
-.pointer-events-off {
-	pointer-events: none;
-}
-/* Enables all click and hover interaction with an element */
-.pointer-events-on {
-  pointer-events: auto;
-}
-/* Create a class of .div-square which maintains a 1:1 dimension of a div */
-.div-square::after {
-	content: "";
-	display: block;
-	padding-bottom: 100%;
-}
-/* Make sure containers never lose their center alignment */
-.container-medium,.container-small, .container-large {
-	margin-right: auto !important;
-  margin-left: auto !important;
-}
-/* 
-Make the following elements inherit typography styles from the parent and not have hardcoded values. 
-Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
-Uncomment this CSS to use it in the project. Leave this message for future hand-off.
-*/
-/*
-a,
-.w-input,
-.w-select,
-.w-tab-link,
-.w-nav-link,
-.w-dropdown-btn,
-.w-dropdown-toggle,
-.w-dropdown-link {
-  color: inherit;
-  text-decoration: inherit;
-  font-size: inherit;
-}
-*/
-/* Apply "..." after 3 lines of text */
-.text-style-3lines {
-	display: -webkit-box;
-	overflow: hidden;
-	-webkit-line-clamp: 3;
-	-webkit-box-orient: vertical;
-}
-/* Apply "..." after 2 lines of text */
-.text-style-2lines {
-	display: -webkit-box;
-	overflow: hidden;
-	-webkit-line-clamp: 2;
-	-webkit-box-orient: vertical;
-}
-/* Adds inline flex display */
-.display-inlineflex {
-  display: inline-flex;
-}
-/* These classes are never overwritten */
-.hide {
-  display: none !important;
-}
-@media screen and (max-width: 991px), 
-  @media screen and (max-width: 767px), 
-  @media screen and (max-width: 479px){
-    .hide, .hide-tablet{
-      display: none !important;
-    }
-  }
-  @media screen and (max-width: 767px)
-    .hide-mobile-landscape{
-      display: none !important;
-    }
-  }
-  @media screen and (max-width: 479px)
-    .hide-mobile{
-      display: none !important;
-    }
-  }
-.margin-0 {
-  margin: 0rem !important;
-}
-.padding-0 {
-  padding: 0rem !important;
-}
-.spacing-clean {
-padding: 0rem !important;
-margin: 0rem !important;
-}
-.margin-top {
-  margin-right: 0rem !important;
-  margin-bottom: 0rem !important;
-  margin-left: 0rem !important;
-}
-.padding-top {
-  padding-right: 0rem !important;
-  padding-bottom: 0rem !important;
-  padding-left: 0rem !important;
-}
-.margin-right {
-  margin-top: 0rem !important;
-  margin-bottom: 0rem !important;
-  margin-left: 0rem !important;
-}
-.padding-right {
-  padding-top: 0rem !important;
-  padding-bottom: 0rem !important;
-  padding-left: 0rem !important;
-}
-.margin-bottom {
-  margin-top: 0rem !important;
-  margin-right: 0rem !important;
-  margin-left: 0rem !important;
-}
-.padding-bottom {
-  padding-top: 0rem !important;
-  padding-right: 0rem !important;
-  padding-left: 0rem !important;
-}
-.margin-left {
-  margin-top: 0rem !important;
-  margin-right: 0rem !important;
-  margin-bottom: 0rem !important;
-}
-.padding-left {
-  padding-top: 0rem !important;
-  padding-right: 0rem !important;
-  padding-bottom: 0rem !important;
-}
-.margin-horizontal {
-  margin-top: 0rem !important;
-  margin-bottom: 0rem !important;
-}
-.padding-horizontal {
-  padding-top: 0rem !important;
-  padding-bottom: 0rem !important;
-}
-.margin-vertical {
-  margin-right: 0rem !important;
-  margin-left: 0rem !important;
-}
-.padding-vertical {
-  padding-right: 0rem !important;
-  padding-left: 0rem !important;
-}
-</style>
-      </div>
-      <div class="transition">
-        <div data-w-id="af119dab-5333-5766-ca9f-936772292c0f" class="transition-trigger"></div>
-        <div class="transition-content">
-          <div class="transition-bg-left"></div>
-          <div class="transition-bg-right"></div>
-          <div class="transition-color-left"></div>
-          <div class="transition-color-right"></div>
-          <div class="clip-path-embed w-embed">
-            <style>
-.transition-bg-left {
-clip-path: polygon(0 0, 0% 100%, 100% 0);
-}
-.transition-bg-right {
-clip-path: polygon(100% 100%, 0% 100%, 100% 0);
-}
-.transition-color-left {
-clip-path: polygon(0 0, 0% 100%, 100% 0);
-}
-.transition-color-right {
-clip-path: polygon(100% 100%, 0% 100%, 100% 0);
-}
-</style>
-          </div>
-        </div>
-      </div>
-    </div>
-    <nav class="nav_component">
-      <div class="padding-global">
-        <div class="container-large">
-          <div data-w-id="256717ef-5b76-2a7e-435d-cb424edfdec3" class="padding-navbar">
-            <div class="nav_flex-wrapper">
-              <div class="nav_left">
-                <a data-w-id="256717ef-5b76-2a7e-435d-cb424edfdec6" href="{{ links.2f }}" class="home-logo-wrapper w-inline-block"><img src="{{ images.7de28169.url }}" loading="lazy" alt="{{ images.7de28169.alt | trim | escape }}" class="home-logo-decoration"><img src="{{ images.3b5e1f2.url }}" loading="lazy" alt="{{ images.3b5e1f2.alt | trim | escape }}" class="home-logo"></a>
-              </div>
-              <div class="nav_right">
-                <div hoverstagger="link" class="nav_link-wrapper">
-                  <a hoverstagger="text" href="{{ links.-1875e8 }}" class="nav_link">{{ texts.50c8e507 }}</a>
-                  <a hoverstagger="text" href="{{ links.-1875e8 }}" class="nav_link is-2">{{ texts.50c8e507 }}</a>
-                </div>
-                <div hoverstagger="link" class="nav_link-wrapper">
-                  <a hoverstagger="text" href="{{ links.-590bcf5e }}" class="nav_link">{{ texts.4b4273e7 }}</a>
-                  <a hoverstagger="text" href="{{ links.-590bcf5e }}" class="nav_link is-2">{{ texts.4b4273e7 }}</a>
-                </div>
-                <div hoverstagger="link" class="nav_link-wrapper">
-                  <a hoverstagger="text" href="{{ links.4b0e6111 }}" class="nav_link">{{ texts.-64104400 }}</a>
-                  <a hoverstagger="text" href="{{ links.4b0e6111 }}" class="nav_link is-2">{{ texts.-64104400 }}</a>
-                </div>
-                <a data-w-id="8f942781-5667-4937-094e-d76fdeeb6ade" href="{{ links.23 }}" class="nav_mobile-button-wrapper w-inline-block"><img src="{{ images.-4a4cbae0.url }}" loading="lazy" alt="{{ images.-4a4cbae0.alt | trim | escape }}" class="nav_mobile-button">
-                  <div class="nav_mobile-button-blur-left"></div>
-                  <div class="nav_mobile-button-decoration-left"></div>
-                  <div class="nav_mobile-button-blur-right"></div>
-                  <div class="nav_mobile-button-decoration-right"></div>
-                </a>
-              </div>
-            </div>
-            <div class="nav_mobile-wrapper">
-              <div class="nav_mobile-top">
-                <div class="nav_close-button-wrapper"><img src="{{ images.5f47e0b7.url }}" loading="lazy" data-w-id="fcb8ccc3-f4d9-0401-2773-ade0e76446d9" alt="{{ images.5f47e0b7.alt | trim | escape }}" class="nav_close-button"></div>
-                <div class="nav_mobile-menu">
-                  <div hoverstagger="link" class="nav_mobile-link-wrapper">
-                    <a hoverstagger="text" href="{{ links.2f }}" class="nav_link mobile">{{ texts.-1b5e6c6c }}</a>
-                    <a hoverstagger="text" href="{{ links.2f }}" class="nav_link mobile is-2">{{ texts.-1b5e6c6c }}</a>
-                  </div>
-                  <div hoverstagger="link" class="nav_mobile-link-wrapper">
-                    <a hoverstagger="text" href="{{ links.-1875e8 }}" class="nav_link mobile">{{ texts.185bd907 }}</a>
-                    <a hoverstagger="text" href="{{ links.-1875e8 }}" class="nav_link mobile is-2">{{ texts.185bd907 }}</a>
-                  </div>
-                  <div hoverstagger="link" class="nav_mobile-link-wrapper">
-                    <a hoverstagger="text" href="{{ links.-590bcf5e }}" class="nav_link mobile">{{ texts.12d56807 }}</a>
-                    <a hoverstagger="text" href="{{ links.-590bcf5e }}" class="nav_link mobile is-2">{{ texts.12d56807 }}</a>
-                  </div>
-                  <div hoverstagger="link" class="nav_mobile-link-wrapper">
-                    <a hoverstagger="text" href="{{ links.4b0e6111 }}" class="nav_link mobile">{{ texts.6382b000 }}</a>
-                    <a hoverstagger="text" href="{{ links.4b0e6111 }}" class="nav_link mobile is-2">{{ texts.6382b000 }}</a>
-                  </div>
-                </div>
-              </div>
-              <div class="nav_mobile-bottom">
-                <div class="nav_mobile-socials">
-                  <div data-w-id="f46266c7-0be4-55cd-4721-7414e8efa599" class="footer_link-wrapper">
-                    <a href="{{ links.7048947f }}" target="_blank" class="text-style-allcaps">{{ texts.3f0537c }}</a>
-                    <div class="footer_link-decoration"></div>
-                    <div class="footer_link-blur"></div>
-                  </div>
-                  <div data-w-id="f46266c7-0be4-55cd-4721-7414e8efa599" class="footer_link-wrapper">
-                    <a href="{{ links.7048947f }}" target="_blank" class="text-style-allcaps">{{ texts.-bd2c9ad }}</a>
-                    <div class="footer_link-decoration"></div>
-                    <div class="footer_link-blur"></div>
-                  </div>
-                  <div data-w-id="f46266c7-0be4-55cd-4721-7414e8efa599" class="footer_link-wrapper">
-                    <a href="{{ links.7048947f }}" target="_blank" class="text-style-allcaps">{{ texts.75db80fe }}</a>
-                    <div class="footer_link-decoration"></div>
-                    <div class="footer_link-blur"></div>
-                  </div>
-                  <div data-w-id="f46266c7-0be4-55cd-4721-7414e8efa599" class="footer_link-wrapper">
-                    <a href="{{ links.7048947f }}" target="_blank" class="text-style-allcaps">{{ texts.-582ee86e }}</a>
-                    <div class="footer_link-decoration"></div>
-                    <div class="footer_link-blur"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="nav_mobile-bg-decoration"></div>
-          </div>
-        </div>
-      </div>
-    </nav>
+    {%- include "partials/global-style" -%}
+    {%- include "partials/nav_component" -%}
     <div class="main-wrapper">
       <div class="section-project-overview">
         <div class="padding-global">
@@ -322,23 +48,23 @@ clip-path: polygon(100% 100%, 0% 100%, 100% 0);
               <div class="project-overview-flex-wrapper">
                 <div class="project-overview-hero">
                   <div hoverstagger="heading" class="project-title">
-                    <h1 hoverstagger="text" class="project-overview-title"></h1>
-                    <h2 hoverstagger="text" class="heading-style-h3-4"></h2>
+                    <h1 hoverstagger="text" class="project-overview-title">{{ title }}</h1>
+                    <h2 hoverstagger="text" class="heading-style-h3-4">{{ f_sous-titre }}</h2>
                   </div>
                   <div class="project-details">
                     <div class="project-category-flex">
                       <h3 class="heading-style-h4">{{ texts.-49f94ced }}</h3>
                       <div class="project-details-decorations"></div>
                       <div class="padding-tiny"></div>
-                      <div class="category-collection w-dyn-list">
-                        <div role="list" class="category-list w-dyn-items">
-                          <div role="listitem" class="category-items w-dyn-item">
-                            <p class="text-style-spacing"></p>
-                          </div>
-                        </div>
-                        <div class="w-dyn-empty">
+                      {%- assign categoriesOfProjects = f_category | resolveMultiReferences -%}<div class="category-collection w-dyn-list">
+                        {%- unless categoriesOfProjects.length == 0 -%}<div role="list" class="category-list w-dyn-items">
+                          {%- for item in categoriesOfProjects -%}<div role="listitem" class="category-items w-dyn-item">
+                            {%- unless item.data.title == "Tous" -%}<p class="text-style-spacing">{{ item.data.title }}</p>{%- endunless -%}
+                          </div>{%- endfor -%}
+                        </div>{%- endunless -%}
+                        {%- if categoriesOfProjects.length == 0 -%}<div class="w-dyn-empty">
                           <div>{{ texts.3d503d2b }}</div>
-                        </div>
+                        </div>{%- endif -%}
                       </div>
                     </div>
                     <div class="project-location-flex">
@@ -346,20 +72,20 @@ clip-path: polygon(100% 100%, 0% 100%, 100% 0);
                       <div class="project-details-decorations"></div>
                       <div class="padding-tiny"></div>
                       <div class="flex_horizontal gap_tiny">
-                        <p class="text-style-spacing"></p>
+                        <p class="text-style-spacing">{{ f_location }}</p>
                         <p>{{ texts.2d }}</p>
-                        <p class="text-style-spacing"></p>
+                        <p class="text-style-spacing">{{ f_year | formatDate: "yyyy" }}</p>
                       </div>
                     </div>
                     <div class="project-credits-flex">
                       <h3 class="heading-style-h4">{{ texts.-58339502 }}</h3>
                       <div class="project-details-decorations"></div>
                       <div class="padding-tiny"></div>
-                      <p class="text-style-spacing"></p>
+                      <p class="text-style-spacing">{{ f_credits }}</p>
                     </div>
                     <div class="project-url">
                       <div data-w-id="6d9a5f97-b6e4-76d2-d17f-23f505f2dbc5" class="button-wrapper">
-                        <a href="{{ links.23 }}" class="button w-button">{{ texts.-4eceb7a }}</a>
+                        <a href="{{ f_url }}" class="button w-button">{{ texts.-4eceb7a }}</a>
                         <div class="button-decorations">
                           <div data-w-id="89dba5a8-89fb-0462-3a1d-da884054c4f7" class="decoration_upper-left-blur"></div>
                           <div data-w-id="89dba5a8-89fb-0462-3a1d-da884054c4f8" class="decoration_upper-left-deco"></div>
@@ -370,52 +96,66 @@ clip-path: polygon(100% 100%, 0% 100%, 100% 0);
                     </div>
                   </div>
                 </div>
-                <div data-w-id="47b9b57b-1d22-95f0-99da-554e463cb123" style="opacity:0" class="project-overview-image"><img src="{{ images.0.url }}" loading="eager" alt="{{ images.0.alt | trim | escape }}" class="project-header-image"></div>
-                <div class="project-overview-brief">
+                <div data-w-id="47b9b57b-1d22-95f0-99da-554e463cb123" style="opacity:0" class="project-overview-image"><img loading="eager" data-sizes="[{&quot;max&quot;:767,&quot;size&quot;:&quot;91vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;78vw&quot;}]" src="{{ f_header-image.url }}" alt="{{ title }}" class="project-header-image"></div>
+                {%- if f_brief-projet -%}<div class="project-overview-brief">
                   <div class="header_overview-brief">
                     <div class="brief-left">
                       <h2 data-w-id="c53db298-a23d-53d7-582f-56078e15d5de" style="opacity:0">{{ texts.3d7785a }}</h2>
                       <div data-w-id="b733d1c3-565d-f51a-18cd-5bbe233513d2" style="opacity:0" class="brief-decoration"></div>
                       <div class="padding-medium"></div>
-                      <p data-w-id="1548cd6f-f17d-64c1-a344-5459817f0371" style="opacity:0" class="text-size-medium"></p>
+                      <p data-w-id="1548cd6f-f17d-64c1-a344-5459817f0371" style="opacity:0" class="text-size-medium">{{ f_brief-projet }}</p>
                     </div>
-                    <div data-w-id="e00f6c02-9b3c-27e9-a585-0e4a52a5756a" style="opacity:0" class="brief-right"><img src="{{ images.0.url }}" loading="lazy" alt="{{ images.0.alt | trim | escape }}" class="brief-image"></div>
+                    <div data-w-id="e00f6c02-9b3c-27e9-a585-0e4a52a5756a" style="opacity:0" class="brief-right"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;91vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;72vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;37vw&quot;}]" src="{{ f_image-brief-projet.url }}" alt="{{ title }}" class="brief-image"></div>
                   </div>
-                </div>
-                <div class="project-overview-images">
-                  <div class="project-images-collection-wrapper w-dyn-list">
+                </div>{%- endif -%}
+                {%- if f_multi-images-projet -%}<div class="project-overview-images">
+                  {%- assign setItems = f_multi-images-projet -%}<div class="project-images-collection-wrapper w-dyn-list">
+                    {%- unless setItems.length == 0 -%}<div role="list" class="project-images-list w-dyn-items">
+                      {%- for setItem in setItems -%}<div data-w-id="6c7dd6ab-c27e-ac49-44ef-40e29a9df874" style="opacity:0" role="listitem" class="project-image-wrapper w-dyn-item"><img loading="eager" data-sizes="[{&quot;max&quot;:767,&quot;size&quot;:&quot;91vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;78vw&quot;}]" src="{{ setItem.url }}" alt="{{ setItem.alt }}" class="project-image"></div>{%- endfor -%}
+                    </div>{%- endunless -%}
+                    {%- if setItems.length == 0 -%}<div class="w-dyn-empty">
+                      <div>{{ texts.3d503d2b }}</div>
+                    </div>{%- endif -%}
+                  <template><div class="project-images-collection-wrapper w-dyn-list">
                     <div role="list" class="project-images-list w-dyn-items">
-                      <div data-w-id="6c7dd6ab-c27e-ac49-44ef-40e29a9df874" style="opacity:0" role="listitem" class="project-image-wrapper w-dyn-item"><img src="{{ images.0.url }}" loading="eager" alt="{{ images.0.alt | trim | escape }}" class="project-image"></div>
+                      <div data-w-id="6c7dd6ab-c27e-ac49-44ef-40e29a9df874" style="opacity:0" role="listitem" class="project-image-wrapper w-dyn-item"><img loading="eager" data-sizes="[{&quot;max&quot;:767,&quot;size&quot;:&quot;91vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;78vw&quot;}]" src="{# setItem.url #}" alt="{# setItem.alt #}" class="project-image"></div>
                     </div>
                     <div class="w-dyn-empty">
-                      <div>{{ texts.3d503d2b }}</div>
+                      <div>{# texts.3d503d2b #}</div>
                     </div>
-                  </div>
-                </div>
-                <div class="project-overview-additional">
+                  </div></template></div>
+                </div>{%- endif -%}
+                {%- if f_additional-content-title -%}{%- if f_additionnal-text -%}<div class="project-overview-additional">
                   <div class="header_overview-additional">
-                    <div class="additional-left"><img src="{{ images.0.url }}" loading="eager" alt="{{ images.0.alt | trim | escape }}" class="brief-image"></div>
-                    <div class="additional-left-embed">
-                      <div class="additional-embed w-richtext"></div>
-                    </div>
+                    {%- if f_additionnal-image -%}<div class="additional-left"><img loading="eager" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;91vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;72vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;37vw&quot;}]" src="{{ f_additionnal-image.url }}" alt="{{ f_additional-content-title }}" class="brief-image"></div>{%- endif -%}
+                    {%- if content -%}<div class="additional-left-embed">
+                      <div class="additional-embed w-richtext">{{ content | markdown }}</div>
+                    </div>{%- endif -%}
                     <div data-w-id="03bec39d-08eb-b503-d52b-15ae27e93573" style="opacity:0" class="additional-right">
-                      <h2 data-w-id="03bec39d-08eb-b503-d52b-15ae27e9356e" style="opacity:0" class="additional-title"></h2>
+                      <h2 data-w-id="03bec39d-08eb-b503-d52b-15ae27e9356e" style="opacity:0" class="additional-title">{{ f_additional-content-title }}</h2>
                       <div data-w-id="03bec39d-08eb-b503-d52b-15ae27e93570" style="opacity:0" class="brief-decoration"></div>
                       <div class="padding-medium"></div>
-                      <p data-w-id="03bec39d-08eb-b503-d52b-15ae27e93572" style="opacity:0" class="text-size-medium"></p>
+                      <p data-w-id="03bec39d-08eb-b503-d52b-15ae27e93572" style="opacity:0" class="text-size-medium">{{ f_additionnal-text }}</p>
                     </div>
                   </div>
-                </div>
-                <div class="project-overview-images">
-                  <div class="project-images-collection-wrapper w-dyn-list">
+                </div>{%- endif -%}{%- endif -%}
+                {%- if f_multi-images-projet-2 -%}<div class="project-overview-images">
+                  {%- assign setItems = f_multi-images-projet-2 -%}<div class="project-images-collection-wrapper w-dyn-list">
+                    {%- unless setItems.length == 0 -%}<div role="list" class="project-images-list w-dyn-items">
+                      {%- for setItem in setItems -%}<div role="listitem" class="project-image-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:767,&quot;size&quot;:&quot;91vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;78vw&quot;}]" src="{{ setItem.url }}" alt="{{ setItem.alt }}" class="project-image"></div>{%- endfor -%}
+                    </div>{%- endunless -%}
+                    {%- if setItems.length == 0 -%}<div class="w-dyn-empty">
+                      <div>{{ texts.3d503d2b }}</div>
+                    </div>{%- endif -%}
+                  <template><div class="project-images-collection-wrapper w-dyn-list">
                     <div role="list" class="project-images-list w-dyn-items">
-                      <div role="listitem" class="project-image-wrapper w-dyn-item"><img src="{{ images.0.url }}" loading="lazy" alt="{{ images.0.alt | trim | escape }}" class="project-image"></div>
+                      <div role="listitem" class="project-image-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:767,&quot;size&quot;:&quot;91vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;78vw&quot;}]" src="{# setItem.url #}" alt="{# setItem.alt #}" class="project-image"></div>
                     </div>
                     <div class="w-dyn-empty">
-                      <div>{{ texts.3d503d2b }}</div>
+                      <div>{# texts.3d503d2b #}</div>
                     </div>
-                  </div>
-                </div>
+                  </div></template></div>
+                </div>{%- endif -%}
                 <div class="project-overview-scripts w-embed w-script">
                   <script>
 $( document ).ready(function() {
@@ -449,18 +189,18 @@ $( document ).ready(function() {
           <div class="container-large">
             <div class="padding-section-medium">
               <div class="next-project-wrapper">
-                <div class="projects-collection-list w-dyn-list">
-                  <div role="list" class="projects-collection-list w-dyn-items">
-                    <div role="listitem" class="next-project-link w-dyn-item">
-                      <a data-w-id="d50dd0d1-7da9-fdd1-2e37-c978723996cc" href="{{ links.23 }}" class="next-project-link w-inline-block"><img src="{{ images.732a39a2.url }}" loading="eager" data-w-id="ea9fdac3-10f4-057f-b738-5f717416ac0e" alt="{{ images.732a39a2.alt | trim | escape }}" class="next-project-line">
+                {%- assign collection = collections.projects | filter: "slug,ne,DYN_CONTEXT", "ALL", page.inputPath | sort: "_random" | limit: 1 -%}<div class="projects-collection-list w-dyn-list">
+                  {%- unless collection.length == 0 -%}<div role="list" class="projects-collection-list w-dyn-items">
+                    {%- for item in collection -%}<div role="listitem" class="next-project-link w-dyn-item">
+                      <a data-w-id="d50dd0d1-7da9-fdd1-2e37-c978723996cc" href="{{ item.url }}" class="next-project-link w-inline-block"><img src="{{ images.732a39a2.url }}" loading="eager" data-w-id="ea9fdac3-10f4-057f-b738-5f717416ac0e" data-sizes="[{&quot;max&quot;:205,&quot;size&quot;:&quot;67vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;138px&quot;}]" alt="{{ images.732a39a2.alt | trim | escape }}" class="next-project-line">
                         <div data-w-id="3a25c758-2fef-58da-ae9e-819b6a59b9b6" class="heading-style-h4">{{ texts.-1a6b76bc }}</div>
                         <div data-w-id="60ea8996-d78c-3224-7b3f-12d59539076a" class="next-project-blur"></div>
                       </a>
-                    </div>
-                  </div>
-                  <div class="w-dyn-empty">
+                    </div>{%- endfor -%}
+                  </div>{%- endunless -%}
+                  {%- if collection.length == 0 -%}<div class="w-dyn-empty">
                     <div>{{ texts.3d503d2b }}</div>
-                  </div>
+                  </div>{%- endif -%}
                 </div>
               </div>
             </div>
@@ -482,26 +222,10 @@ $( document ).ready(function() {
                 <p>{{ texts.43a79c6a }}</p>
               </div>
               <div class="footer_right">
-                <div data-w-id="f46266c7-0be4-55cd-4721-7414e8efa599" class="footer_link-wrapper">
-                  <a href="{{ links.7048947f }}" target="_blank" class="text-style-allcaps">{{ texts.3f0537c }}</a>
-                  <div class="footer_link-decoration"></div>
-                  <div class="footer_link-blur"></div>
-                </div>
-                <div data-w-id="f46266c7-0be4-55cd-4721-7414e8efa599" class="footer_link-wrapper">
-                  <a href="{{ links.7048947f }}" target="_blank" class="text-style-allcaps">{{ texts.-bd2c9ad }}</a>
-                  <div class="footer_link-decoration"></div>
-                  <div class="footer_link-blur"></div>
-                </div>
-                <div data-w-id="f46266c7-0be4-55cd-4721-7414e8efa599" class="footer_link-wrapper">
-                  <a href="{{ links.7048947f }}" target="_blank" class="text-style-allcaps">{{ texts.75db80fe }}</a>
-                  <div class="footer_link-decoration"></div>
-                  <div class="footer_link-blur"></div>
-                </div>
-                <div data-w-id="f46266c7-0be4-55cd-4721-7414e8efa599" class="footer_link-wrapper">
-                  <a href="{{ links.7048947f }}" target="_blank" class="text-style-allcaps">{{ texts.-582ee86e }}</a>
-                  <div class="footer_link-decoration"></div>
-                  <div class="footer_link-blur"></div>
-                </div>
+                {%- include "partials/footer_nav-link" -%}
+                {%- include "partials/footer_nav-link" -%}
+                {%- include "partials/footer_nav-link" -%}
+                {%- include "partials/footer_nav-link" -%}
               </div>
             </div>
           </div>

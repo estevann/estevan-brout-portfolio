@@ -1800,9 +1800,9 @@ collections:
             label: Text
             name: '-4e7fdcf4'
             widget: string
-          - hint: 'Original text: © 2023 - Estevan Brout, , key: -76dadfc7'
+          - hint: 'Original text: 2023 © Estevan Brout, key: 43a79c6a'
             label: Text
-            name: '-76dadfc7'
+            name: 43a79c6a
             widget: string
           - hint: >-
               Original text: Basé à Paris, j’aide les entreprises dans le monde
@@ -2022,10 +2022,6 @@ collections:
           - hint: 'Original text: Let''s discuss !, key: 6e178b68'
             label: Text
             name: 6e178b68
-            widget: string
-          - hint: 'Original text: 2023 © Estevan Brout, key: 43a79c6a'
-            label: Text
-            name: 43a79c6a
             widget: string
       - label: Links
         name: links

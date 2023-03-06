@@ -4369,10 +4369,7 @@ figcaption {
 
 .additional-left-embed {
   position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -4386,6 +4383,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  -ms-grid-row-align: stretch;
   align-self: stretch;
   -webkit-box-flex: 1;
   -webkit-flex: 1;

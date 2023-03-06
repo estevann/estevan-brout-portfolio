@@ -339,5 +339,37 @@ $("[hoverstagger='headingService']").each(function (index) {
   });
 });
 </script>
+  <script>
+$(document).ready(function () {
+    (function ($) {
+      $.fn.shuffle = function () {
+        var allElems = this.get(),
+          getRandom = function (max) {
+            return Math.floor(Math.random() * max);
+          },
+          shuffled = $.map(allElems, function () {
+            var random = getRandom(allElems.length),
+              randEl = $(allElems[random]).clone(true)[0];
+            allElems.splice(random, 1);
+            return randEl;
+          });
+        this.each(function (i) {
+          $(this).replaceWith($(shuffled[i]));
+        });
+        return $(shuffled);
+      };
+    })(jQuery);
+});
+$(document).ready(function () {
+  function melange() {
+    if ($("#nextprojectfr").hasClass("w-condition-invisible")) {
+      $(".next-project-link-en:contains(project)").shuffle();
+    } else if ($("#nextprojecten").hasClass("w-condition-invisible")) {
+      $(".next-project-link:contains(suivant)").shuffle();
+    }
+  }
+  setTimeout(melange, 500);
+});
+</script>
 
 <script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.1/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>

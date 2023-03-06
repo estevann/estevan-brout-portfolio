@@ -1,13 +1,18 @@
 {
   "23": "#",
   "2f": "/",
-  "-1875e8": "/projets",
-  "-590bcf5e": "/a-propos",
+  "-2f68657": "/projects",
+  "55b8e8be": "/about",
   "4b0e6111": "/contact",
-  "7048947f": "https://www.linkedin.com/in/estevanb/",
-  "-1ae23a8d": "mailto:estevan.brout@dropd.io",
+  "7de696e0": "/fr/accueil",
+  "21dd6bd3": "mailto:estevanbrout@gmail.com",
   "-509a35d1": "https://twitter.com/Banb_Ace",
-  "50f9b62a": "https://www.instagram.com/estevanbrout",
+  "7048947f": "https://www.linkedin.com/in/estevanb/",
+  "-31c2f0bb": "https://www.instagram.com/estevanbrout/",
   "-740f2794": "https://client-first.webflow.io/",
-  "9cd90ea": "http://finsweet.com"
+  "9cd90ea": "http://finsweet.com",
+  "-4e5f23ad": "/fr/projets",
+  "2c6525c7": "/fr/a-propos",
+  "-3384cb4": "/fr/contact",
+  "2646baa": "https://www.dropd.io/"
 }

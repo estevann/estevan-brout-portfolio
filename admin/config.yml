@@ -164,6 +164,11 @@ collections:
         label: Published On
         widget: datetime
         required: false
+      - hint: ''
+        name: f_name-en
+        label: Name_en
+        widget: string
+        required: false
       - label: Tags
         widget: hidden
         name: tags
@@ -177,7 +182,7 @@ collections:
         widget: datetime
       - *ref_0
   - name: projects
-    label: Projects
+    label: Projets
     folder: cms/projects
     create: true
     identifier_field: name
@@ -212,6 +217,11 @@ collections:
         name: f_sous-titre
         label: Sous-titre
         widget: text
+        required: false
+      - hint: ''
+        name: f_sous-titre-en
+        label: Sous-titre EN
+        widget: string
         required: false
       - hint: ''
         name: f_category
@@ -266,6 +276,11 @@ collections:
       - hint: ''
         name: f_brief-projet
         label: Brief projet
+        widget: text
+        required: false
+      - hint: ''
+        name: f_brief-project-en
+        label: Brief project EN
         widget: text
         required: false
       - hint: ''
@@ -330,8 +345,18 @@ collections:
         widget: string
         required: false
       - hint: ''
+        name: f_additional-content-title-en
+        label: Additional content title EN
+        widget: string
+        required: false
+      - hint: ''
         name: f_additionnal-text
         label: Additionnal text
+        widget: text
+        required: false
+      - hint: ''
+        name: f_additional-text-en
+        label: Additional text EN
         widget: text
         required: false
       - hint: ''
@@ -368,6 +393,11 @@ collections:
             label: alt
             widget: string
             required: false
+      - hint: ''
+        name: f_french-version
+        label: French version
+        widget: boolean
+        required: false
       - label: Tags
         widget: hidden
         name: tags
@@ -480,29 +510,29 @@ collections:
             label: Text
             name: '-f5c4b5f'
             widget: string
-          - hint: 'Original text: Projets, key: 50c8e507'
+          - hint: 'Original text: Projects, key: -37ac8366'
             label: Text
-            name: 50c8e507
+            name: '-37ac8366'
             widget: string
-          - hint: 'Original text: À propos, key: 4b4273e7'
+          - hint: 'Original text: About, key: 3c2336d'
             label: Text
-            name: 4b4273e7
+            name: 3c2336d
             widget: string
           - hint: 'Original text: Contact, key: -64104400'
             label: Text
             name: '-64104400'
             widget: string
-          - hint: 'Original text: ACCUEIL, key: -1b5e6c6c'
+          - hint: 'Original text: HOME, key: 21ecdf'
             label: Text
-            name: '-1b5e6c6c'
+            name: 21ecdf
             widget: string
-          - hint: 'Original text: PROJETS, key: 185bd907'
+          - hint: 'Original text: PROJECTS, key: -ce0f786'
             label: Text
-            name: 185bd907
+            name: '-ce0f786'
             widget: string
-          - hint: 'Original text: À PROPOs, key: 12d56807'
+          - hint: 'Original text: ABOUT, key: 3b32b6d'
             label: Text
-            name: 12d56807
+            name: 3b32b6d
             widget: string
           - hint: 'Original text: CONTACT, key: 6382b000'
             label: Text
@@ -524,23 +554,25 @@ collections:
             label: Text
             name: '-582ee86e'
             widget: string
-          - hint: "Original text: ERREUR\_404, key: 73be5c55"
+          - hint: "Original text: ERROR\_404, key: -4612d580"
             label: Text
-            name: 73be5c55
+            name: '-4612d580'
             widget: string
-          - hint: >-
-              Original text: La page n'existe plus où à été déplacée., key:
-              -25f01f16
+          - hint: 'Original text: The page doesn''t exist., key: -6f7853a9'
             label: Text
-            name: '-25f01f16'
+            name: '-6f7853a9'
             widget: string
-          - hint: 'Original text: Retour à l''accueil, key: 48329564'
+          - hint: 'Original text: Back to Homepage, key: 66ef27a'
             label: Text
-            name: '48329564'
+            name: 66ef27a
             widget: string
-          - hint: 'Original text: 2023 © Estevan Brout, key: 43a79c6a'
+          - hint: 'Original text: © 2023 - Estevan Brout,, key: -45e60739'
             label: Text
-            name: 43a79c6a
+            name: '-45e60739'
+            widget: string
+          - hint: 'Original text: DropD, key: 3f3bf15'
+            label: Text
+            name: 3f3bf15
             widget: string
           - hint: 'Original text: Client-First — Version 2, key: -56ec8934'
             label: Text
@@ -1518,13 +1550,35 @@ collections:
             label: Text
             name: 667d63e4
             widget: text
+          - hint: 'Original text: Projets, key: 50c8e507'
+            label: Text
+            name: 50c8e507
+            widget: string
+          - hint: 'Original text: À propos, key: 4b4273e7'
+            label: Text
+            name: 4b4273e7
+            widget: string
+          - hint: 'Original text: ACCUEIL, key: -1b5e6c6c'
+            label: Text
+            name: '-1b5e6c6c'
+            widget: string
+          - hint: 'Original text: PROJETS, key: 185bd907'
+            label: Text
+            name: 185bd907
+            widget: string
+          - hint: 'Original text: À PROPOs, key: 12d56807'
+            label: Text
+            name: 12d56807
+            widget: string
           - hint: 'Original text: Estevan Brout, key: 3ff5f0c2'
             label: Text
             name: 3ff5f0c2
             widget: string
-          - hint: 'Original text: Product designer & Webflow Developer, key: 47556aee'
+          - hint: >-
+              Original text: Product designer & Développeur Webflow, key:
+              -168d2eb1
             label: Text
-            name: 47556aee
+            name: '-168d2eb1'
             widget: string
           - hint: 'Original text: Mes projets, key: -51c8d43e'
             label: Text
@@ -1706,6 +1760,10 @@ collections:
             label: Text
             name: '-49f94ced'
             widget: string
+          - hint: 'Original text: Category, key: 6dd211e'
+            label: Text
+            name: 6dd211e
+            widget: string
           - hint: 'Original text: Localisation / Année, key: 7cdc112c'
             label: Text
             name: 7cdc112c
@@ -1722,22 +1780,47 @@ collections:
             label: Text
             name: '-4eceb7a'
             widget: string
+          - hint: 'Original text: Visit website, key: -2f21815a'
+            label: Text
+            name: '-2f21815a'
+            widget: string
           - hint: 'Original text: Brief, key: 3d7785a'
             label: Text
             name: 3d7785a
+            widget: string
+          - hint: 'Original text: The project, key: -7e69b1b6'
+            label: Text
+            name: '-7e69b1b6'
             widget: string
           - hint: 'Original text: Projet suivant, key: -1a6b76bc'
             label: Text
             name: '-1a6b76bc'
             widget: string
+          - hint: 'Original text: Next project, key: -4e7fdcf4'
+            label: Text
+            name: '-4e7fdcf4'
+            widget: string
+          - hint: 'Original text: © 2023 - Estevan Brout, , key: -76dadfc7'
+            label: Text
+            name: '-76dadfc7'
+            widget: string
+          - hint: 'Original text: TWiTTER, key: -a0fd98d'
+            label: Text
+            name: '-a0fd98d'
+            widget: string
           - hint: >-
               Original text: Basé à Paris, j’aide les entreprises dans le monde
               entier grâce à mes compétences en design & développement.
-              Actuellement chez DropD, j’accompagne mes clients dans la
-              réalisation de produits digitaux pour améliorer leur visibilité
-              sur Internet., key: -2c9c6f65
+              Actuellement chez , key: 298bee8b
             label: Text
-            name: '-2c9c6f65'
+            name: 298bee8b
+            widget: text
+          - hint: >-
+              Original text: , j’accompagne mes clients dans la réalisation de
+              produits digitaux pour améliorer leur visibilité sur Internet.,
+              key: -7aea12cf
+            label: Text
+            name: '-7aea12cf'
             widget: text
           - hint: >-
               Original text: J’aime tout ce qui touche à la création digitale,
@@ -1760,6 +1843,190 @@ collections:
             label: Text
             name: 557df9bc
             widget: string
+          - hint: 'Original text: Product designer & Webflow Developer, key: 47556aee'
+            label: Text
+            name: 47556aee
+            widget: string
+          - hint: 'Original text: My projects, key: -7378cbb2'
+            label: Text
+            name: '-7378cbb2'
+            widget: string
+          - hint: 'Original text: Projects achieved, key: 7d5e30f9'
+            label: Text
+            name: 7d5e30f9
+            widget: string
+          - hint: 'Original text: See all projects, key: -6675051a'
+            label: Text
+            name: '-6675051a'
+            widget: string
+          - hint: 'Original text: What i do, key: 69ddbf5e'
+            label: Text
+            name: 69ddbf5e
+            widget: string
+          - hint: >-
+              Original text: As a designer and developer, I use all the tools
+              available to build web experiences and impactful identities for my
+              clients. Webflow helps me to gather all the necessary tools and
+              build amazing websites. My goal is to always progress and deliver
+              quality expertise., key: -7940cf88
+            label: Text
+            name: '-7940cf88'
+            widget: text
+          - hint: 'Original text: My services, key: 1a432c32'
+            label: Text
+            name: 1a432c32
+            widget: string
+          - hint: "Original text: THE\_RECIPE\_, key: -21cfa87d"
+            label: Text
+            name: '-21cfa87d'
+            widget: string
+          - hint: "Original text: FOR\_AN\_, key: 2904d9c"
+            label: Text
+            name: 2904d9c
+            widget: string
+          - hint: "Original text: IMPACTFUL\_, key: -6290c6d7"
+            label: Text
+            name: '-6290c6d7'
+            widget: string
+          - hint: "Original text: WEBFLOW\_, key: 4323e7e"
+            label: Text
+            name: 4323e7e
+            widget: string
+          - hint: 'Original text: WEBSITE, key: 73c56c7b'
+            label: Text
+            name: 73c56c7b
+            widget: string
+          - hint: >-
+              Original text: I work on the design of your future website to make
+              it impactful and functional. By optimizing the design for all
+              types of devices, it becomes accessible to everyone. To make your
+              website unique, I offer the following services :, key: 763f5da
+            label: Text
+            name: 763f5da
+            widget: text
+          - hint: 'Original text: UI/UX mockups, key: 124b1d4c'
+            label: Text
+            name: 124b1d4c
+            widget: string
+          - hint: 'Original text: 3D modeling, key: -f461718'
+            label: Text
+            name: '-f461718'
+            widget: string
+          - hint: 'Original text: Webflow Development, key: 3676085d'
+            label: Text
+            name: 3676085d
+            widget: string
+          - hint: >-
+              Original text: With a wealth of experience from numerous
+              successful projects, I have become proficient in integrating and
+              developing your website quickly. Take advantage of cutting-edge
+              animations using GSAP and the capabilities of Webflow. To make
+              your website clean and maintainable, I offer the following
+              services :, key: -7c9c8960
+            label: Text
+            name: '-7c9c8960'
+            widget: text
+          - hint: 'Original text: Integration using Figma/Webflow, key: 2e1a38c3'
+            label: Text
+            name: 2e1a38c3
+            widget: string
+          - hint: 'Original text: Webflow development, key: -2cf39f83'
+            label: Text
+            name: '-2cf39f83'
+            widget: string
+          - hint: 'Original text: Automations, key: -2097c9e4'
+            label: Text
+            name: '-2097c9e4'
+            widget: string
+          - hint: "Original text: SEO\_Optimization, key: -17f83ef0"
+            label: Text
+            name: '-17f83ef0'
+            widget: string
+          - hint: >-
+              Original text: To ensure maximum exposure, I optimize your website
+              for search engines., key: -15aa1d40
+            label: Text
+            name: '-15aa1d40'
+            widget: string
+          - hint: 'Original text: SEO audit, key: -5ee9f1c8'
+            label: Text
+            name: '-5ee9f1c8'
+            widget: string
+          - hint: 'Original text: SEO optimization, key: -6346d390'
+            label: Text
+            name: '-6346d390'
+            widget: string
+          - hint: "Original text: A\_quality expertise for your website, key: -1287c9ac"
+            label: Text
+            name: '-1287c9ac'
+            widget: string
+          - hint: 'Original text: Client-first methodology, key: -5d0ae46f'
+            label: Text
+            name: '-5d0ae46f'
+            widget: string
+          - hint: >-
+              Original text: Enables an efficient and organized integration of
+              your site. It will be easily readable by all developers who use
+              this system and its evolution will be simplified., key: -7f8bf6b8
+            label: Text
+            name: '-7f8bf6b8'
+            widget: text
+          - hint: 'Original text: Automations & integrations, key: -404a66a3'
+            label: Text
+            name: '-404a66a3'
+            widget: string
+          - hint: >-
+              Original text: Take advantage of all possible integrations to
+              allow your site to be automated and connected to a database if
+              necessary., key: 35936cfd
+            label: Text
+            name: 35936cfd
+            widget: text
+          - hint: 'Original text: SEO optimization & ROI focus, key: -5a84edc6'
+            label: Text
+            name: '-5a84edc6'
+            widget: string
+          - hint: >-
+              Original text: I integrate all the best SEO practices to optimize
+              your site for search engines. You can also visualize user data
+              using Google Analytics and audience measurement tools., key:
+              -3da1b025
+            label: Text
+            name: '-3da1b025'
+            widget: text
+          - hint: 'Original text: Certified Webflow expert, key: -572df9df'
+            label: Text
+            name: '-572df9df'
+            widget: string
+          - hint: >-
+              Original text: I am currently in the process of obtaining Webflow
+              certification to become a professional partner and thus ensure my
+              status as a Webflow expert. Unlock in progress..., key: -21b4a2dc
+            label: Text
+            name: '-21b4a2dc'
+            widget: text
+          - hint: 'Original text: Let''s discuss your project, key: c792685'
+            label: Text
+            name: c792685
+            widget: string
+          - hint: >-
+              Original text: ‍Based in Paris, I help companies worldwide with my
+              skills in design and development. Currently working at DropD, I
+              assist my clients with digital products to enhance their
+              visibility on the web. , key: -73efc1cb
+            label: Text
+            name: '-73efc1cb'
+            widget: text
+          - hint: >-
+              Original text: I love everything related to design, immersive
+              experiences, web development and 3D., key: 5e728ef7
+            label: Text
+            name: 5e728ef7
+            widget: string
+          - hint: 'Original text: Let''s discuss !, key: 6e178b68'
+            label: Text
+            name: 6e178b68
+            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json
@@ -1772,21 +2039,33 @@ collections:
             label: Link
             name: 2f
             widget: string
-          - hint: 'Original link: /projets, key: -1875e8'
+          - hint: 'Original link: /projects, key: -2f68657'
             label: Link
-            name: '-1875e8'
+            name: '-2f68657'
             widget: string
-          - hint: 'Original link: /a-propos, key: -590bcf5e'
+          - hint: 'Original link: /about, key: 55b8e8be'
             label: Link
-            name: '-590bcf5e'
+            name: 55b8e8be
             widget: string
           - hint: 'Original link: /contact, key: 4b0e6111'
             label: Link
             name: 4b0e6111
             widget: string
+          - hint: 'Original link: /fr/accueil, key: 7de696e0'
+            label: Link
+            name: 7de696e0
+            widget: string
           - hint: 'Original link: #, key: 23'
             label: Link
             name: '23'
+            widget: string
+          - hint: 'Original link: mailto:estevanbrout@gmail.com, key: 21dd6bd3'
+            label: Link
+            name: 21dd6bd3
+            widget: string
+          - hint: 'Original link: https://twitter.com/Banb_Ace, key: -509a35d1'
+            label: Link
+            name: '-509a35d1'
             widget: string
           - hint: >-
               Original link: https://www.linkedin.com/in/estevanb/, key:
@@ -1794,19 +2073,11 @@ collections:
             label: Link
             name: 7048947f
             widget: string
-          - hint: 'Original link: mailto:estevan.brout@dropd.io, key: -1ae23a8d'
-            label: Link
-            name: '-1ae23a8d'
-            widget: string
-          - hint: 'Original link: https://twitter.com/Banb_Ace, key: -509a35d1'
-            label: Link
-            name: '-509a35d1'
-            widget: string
           - hint: >-
-              Original link: https://www.instagram.com/estevanbrout, key:
-              50f9b62a
+              Original link: https://www.instagram.com/estevanbrout/, key:
+              -31c2f0bb
             label: Link
-            name: 50f9b62a
+            name: '-31c2f0bb'
             widget: string
           - hint: 'Original link: https://client-first.webflow.io/, key: -740f2794'
             label: Link
@@ -1815,6 +2086,22 @@ collections:
           - hint: 'Original link: http://finsweet.com, key: 9cd90ea'
             label: Link
             name: 9cd90ea
+            widget: string
+          - hint: 'Original link: /fr/projets, key: -4e5f23ad'
+            label: Link
+            name: '-4e5f23ad'
+            widget: string
+          - hint: 'Original link: /fr/a-propos, key: 2c6525c7'
+            label: Link
+            name: 2c6525c7
+            widget: string
+          - hint: 'Original link: /fr/contact, key: -3384cb4'
+            label: Link
+            name: '-3384cb4'
+            widget: string
+          - hint: 'Original link: https://www.dropd.io/, key: 2646baa'
+            label: Link
+            name: 2646baa
             widget: string
       - label: Images
         name: images
@@ -1865,6 +2152,32 @@ collections:
                 required: false
           - label: Image
             name: 3b5e1f2
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: 2bf44ff6
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-fb6e90'
             widget: object
             fields:
               - name: url

@@ -1804,10 +1804,6 @@ collections:
             label: Text
             name: '-76dadfc7'
             widget: string
-          - hint: 'Original text: TWiTTER, key: -a0fd98d'
-            label: Text
-            name: '-a0fd98d'
-            widget: string
           - hint: >-
               Original text: Basé à Paris, j’aide les entreprises dans le monde
               entier grâce à mes compétences en design & développement.

@@ -3242,6 +3242,10 @@ figcaption {
   z-index: -1;
 }
 
+.background_decoration {
+  overflow: hidden;
+}
+
 .background_guitar {
   position: fixed;
   left: 0%;
@@ -5381,10 +5385,7 @@ figcaption {
   }
 
   .nav_mobile-wrapper {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     width: 100%;
     padding-left: 6rem;
   }
@@ -6059,8 +6060,8 @@ figcaption {
   }
 
   .client-foreground {
-    top: 0%;
-    height: 100%;
+    top: -26%;
+    height: 150%;
   }
 }
 
@@ -6468,8 +6469,8 @@ figcaption {
   }
 
   .client-foreground {
-    top: 0%;
-    height: 100%;
+    top: -12%;
+    height: 125%;
     -webkit-box-flex: 0;
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;

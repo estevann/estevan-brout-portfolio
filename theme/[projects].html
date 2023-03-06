@@ -135,7 +135,7 @@ body .transition {display: block;}
                       <div class="padding-medium"></div>
                       <p data-w-id="1548cd6f-f17d-64c1-a344-5459817f0371" style="opacity:0" class="text-size-medium">{{ f_brief-projet }}</p>
                     </div>
-                    <div data-w-id="e00f6c02-9b3c-27e9-a585-0e4a52a5756a" style="opacity:0" class="brief-right"><img loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" src="{{ f_image-brief-projet.url }}" alt="{{ title }}" class="brief-image"></div>
+                    <div data-w-id="e00f6c02-9b3c-27e9-a585-0e4a52a5756a" style="opacity:0" class="brief-right"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;91vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;72vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;37vw&quot;}]" src="{{ f_image-brief-projet.url }}" alt="{{ title }}" class="brief-image"></div>
                   </div>
                 </div>{%- endif -%}{%- endif -%}
                 {%- if f_brief-project-en -%}{%- unless f_french-version == true -%}<div class="project-overview-brief">
@@ -146,7 +146,7 @@ body .transition {display: block;}
                       <div class="padding-medium"></div>
                       <p data-w-id="cd566829-09c7-df0d-7dcd-75282ca2c12b" style="opacity:0" class="text-size-medium">{{ f_brief-project-en }}</p>
                     </div>
-                    <div data-w-id="cd566829-09c7-df0d-7dcd-75282ca2c12c" style="opacity:0" class="brief-right"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;91vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;72vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;37vw&quot;}]" src="{{ f_image-brief-projet.url }}" alt="{{ title }}" class="brief-image"></div>
+                    <div data-w-id="cd566829-09c7-df0d-7dcd-75282ca2c12c" style="opacity:0" class="brief-right"><img loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" src="{{ f_image-brief-projet.url }}" alt="{{ title }}" class="brief-image"></div>
                   </div>
                 </div>{%- endunless -%}{%- endif -%}
                 {%- if f_multi-images-projet -%}<div class="project-overview-images">
@@ -247,7 +247,7 @@ $( document ).ready(function() {
                 {%- assign collection = collections.projects | filter: "f_french-version,eq,true; slug,ne,DYN_CONTEXT", "ALL", page.inputPath | sort: "-created-on" -%}<div class="next-projects-collection-list-wrapper w-dyn-list">
                   {%- unless collection.length == 0 -%}<div data-w-id="1a785a06-5e51-c91b-8798-372a89925f0a" role="list" class="next-projects-collection-list w-dyn-items">
                     {%- for item in collection -%}<div role="listitem" class="next-project-link-fr w-dyn-item">
-                      <a href="{{ item.url }}" class="next-project-link w-inline-block"><img src="{{ images.732a39a2.url }}" loading="eager" data-w-id="ea9fdac3-10f4-057f-b738-5f717416ac0e" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" alt="{{ images.732a39a2.alt | trim | escape }}" class="next-project-line">
+                      <a href="{{ item.url }}" class="next-project-link w-inline-block"><img src="{{ images.732a39a2.url }}" loading="eager" data-w-id="ea9fdac3-10f4-057f-b738-5f717416ac0e" data-sizes="[{&quot;max&quot;:205,&quot;size&quot;:&quot;67vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;138px&quot;}]" alt="{{ images.732a39a2.alt | trim | escape }}" class="next-project-line">
                         <div data-w-id="3a25c758-2fef-58da-ae9e-819b6a59b9b6" class="heading-style-h4">{{ texts.-1a6b76bc }}</div>
                         <div data-w-id="60ea8996-d78c-3224-7b3f-12d59539076a" class="next-project-blur"></div>
                       </a>
@@ -275,7 +275,7 @@ $( document ).ready(function() {
                 {%- assign collection = collections.projects | filter: "slug,ne,DYN_CONTEXT; f_french-version,ne,true", "ALL", page.inputPath | sort: "-created-on" -%}<div class="next-projects-collection-list-wrapper w-dyn-list">
                   {%- unless collection.length == 0 -%}<div role="list" class="next-projects-collection-list w-dyn-items">
                     {%- for item in collection -%}<div role="listitem" class="next-project-link-en w-dyn-item">
-                      <a href="{{ item.url }}" class="next-project-link w-inline-block"><img src="{{ images.732a39a2.url }}" loading="eager" data-w-id="c430dc33-e57a-2157-18cf-1f27a3da10f0" data-sizes="[{&quot;max&quot;:205,&quot;size&quot;:&quot;67vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;138px&quot;}]" alt="{{ images.732a39a2.alt | trim | escape }}" class="next-project-line">
+                      <a href="{{ item.url }}" class="next-project-link w-inline-block"><img src="{{ images.732a39a2.url }}" loading="eager" data-w-id="c430dc33-e57a-2157-18cf-1f27a3da10f0" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" alt="{{ images.732a39a2.alt | trim | escape }}" class="next-project-line">
                         <div data-w-id="c430dc33-e57a-2157-18cf-1f27a3da10f1" class="heading-style-h4">{{ texts.-4e7fdcf4 }}</div>
                         <div data-w-id="c430dc33-e57a-2157-18cf-1f27a3da10f3" class="next-project-blur"></div>
                       </a>
@@ -307,40 +307,40 @@ $( document ).ready(function() {
 </script>
 
 <script>
+//TRIER PROJETS
 
-$(document).ready(function () {
-    (function ($) {
-      $.fn.shuffle = function () {
-        var allElems = this.get(),
-          getRandom = function (max) {
-            return Math.floor(Math.random() * max);
-          },
-          shuffled = $.map(allElems, function () {
-            var random = getRandom(allElems.length),
-              randEl = $(allElems[random]).clone(true)[0];
-            allElems.splice(random, 1);
-            return randEl;
-          });
+(function ($) {
+  $.fn.shuffle = function () {
+    var allElems = this.get(),
+      getRandom = function (max) {
+        return Math.floor(Math.random() * max);
+      },
+      shuffled = $.map(allElems, function () {
+        var random = getRandom(allElems.length),
+          randEl = $(allElems[random]).clone(true)[0];
+        allElems.splice(random, 1);
+        return randEl;
+      });
 
-        this.each(function (i) {
-          $(this).replaceWith($(shuffled[i]));
-        });
+    this.each(function (i) {
+      $(this).replaceWith($(shuffled[i]));
+    });
 
-        return $(shuffled);
-      };
-    })(jQuery);
-});
+    return $(shuffled);
+  };
+})(jQuery);
 
 $(document).ready(function () {
   function melange() {
-    if ($("#nextprojectfr").hasClass("w-condition-invisible")) {
-      $(".next-project-link-en:contains(project)").shuffle();
-    } else if ($("#nextprojecten").hasClass("w-condition-invisible")) {
-      $(".next-project-link:contains(suivant)").shuffle();
+    if ($("#nextprojectfr:visible")) {
+      $(".next-project-link:visible").shuffle();
+    } else if ($("#nextprojecten:visible")) {
+      $(".next-project-link:visible").shuffle();
     }
   }
-  setTimeout(melange, 2500);
+  setTimeout(melange, 800);
 });
+
 </script></div>
     {%- include "partials/footer_component-bg" -%}
   </div>
@@ -578,5 +578,6 @@ $("[hoverstagger='headingService']").each(function (index) {
   });
 });
 </script>
+  <script src="https://fdbicu.csb.app/shuffle.js"></script>
 
 <script src="/assets/js/udesly-11ty.min.js" async="" defer=""></script>{{ settings.site.footer_additional_content }}<script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.1/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script></body></html>

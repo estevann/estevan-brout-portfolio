@@ -3,7 +3,8 @@ title: Hypnosis
 created-on: 2023-02-03T14:30:58.697Z
 updated-on: 2023-03-01T10:08:02.375Z
 published-on: 2023-03-01T10:09:41.354Z
-f_sous-titre: Blog de marketing d’affiliation
+f_sous-titre: ""
+f_sous-titre-en: Affiliate marketing blog
 f_category:
   - cms/categories/design.md
   - cms/categories/development.md
@@ -15,14 +16,16 @@ f_url: https://www.hypnosishps.com/
 f_header-image:
   url: https://uploads-ssl.webflow.com/63d8024f6ef3af4635a47d8a/63f3acd95e36035122e75a7f_hoverimg%20hypnosis.webp
   alt: null
-f_brief-projet: >-
-  
-  Hypnosis est un blog de marketing d’affiliation qui a pour ambition d'évoluer dans le secteur de l'automobile et de la cuisine. Nous avons conçu une identité masculine avec des couleurs fortes et des typographies à large graisses pour promouvoir les produits et être immiscé dans l'univers Hypnosis.
+f_brief-project-en: Hypnosis is an affiliate marketing blog with the ambition to
+  expand into the automotive and culinary industries. We designed a masculine
+  identity with strong colors and bold typography to promote the products and
+  immerse the audience in the Hypnosis universe.
 f_image-brief-projet:
   url: https://uploads-ssl.webflow.com/63d8024f6ef3af4635a47d8a/63fdd9c06843a97af34013a0_63f3b0fb1626ea65bab20335_img2.webp
   alt: null
 layout: "[projects].html"
 slug: hypnosis
+f_brief-projet: ""
 f_image-hover-interaction:
   url: https://uploads-ssl.webflow.com/63d8024f6ef3af4635a47d8a/63f3acd95e36035122e75a7f_hoverimg%20hypnosis.webp
   alt: null

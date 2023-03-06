@@ -2023,6 +2023,10 @@ collections:
             label: Text
             name: 6e178b68
             widget: string
+          - hint: 'Original text: 2023 © Estevan Brout, key: 43a79c6a'
+            label: Text
+            name: 43a79c6a
+            widget: string
       - label: Links
         name: links
         file: cms/_data/links.json

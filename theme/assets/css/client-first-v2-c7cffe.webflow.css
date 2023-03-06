@@ -5046,6 +5046,10 @@ figcaption {
   display: flex;
 }
 
+.project-shuffle {
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   .padding-xlarge {
     padding: 3rem;

@@ -62,7 +62,7 @@ body .transition {display: block;}
             <div class="client-foreground"></div>
             {%- assign collection = collections.clients | sort: "-created-on" -%}<div class="clients-list-wrapper w-dyn-list">
               {%- unless collection.length == 0 -%}<div style="-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" role="list" class="clients-list w-dyn-items">
-                {%- for item in collection -%}<div role="listitem" class="client-image-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" src="{{ item.data.f_logo-client.url }}" alt="{{ item.data.title }}" class="client-image"></div>{%- endfor -%}
+                {%- for item in collection -%}<div role="listitem" class="client-image-wrapper w-dyn-item"><img loading="lazy" data-sizes="[{&quot;max&quot;:991,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;3860.80224609375px&quot;}]" src="{{ item.data.f_logo-client.url }}" alt="{{ item.data.title }}" class="client-image"></div>{%- endfor -%}
               </div>{%- endunless -%}
               {%- if collection.length == 0 -%}<div class="w-dyn-empty">
                 <div>{{ texts.3d503d2b }}</div>

@@ -48,4 +48,14 @@ f_multi-images-projet-2:
     alt: null
 tags: projects
 date: 2023-03-01T12:33:38.652Z
+seo:
+  additional_tags: <link rel="canonical"
+    href="https://www.estevan-brout.com/projects/lalaleads/" />
+  description: The objective was to modernize the Lalaleads website with the new
+    visual identity designed by their teams. With DropD, we created
+    illustrations and redesigned the navigation and user experience in
+    collaboration with their teams. We developed the website on Webflow and
+    trained them to take control of the back-office.
+  title: Portfolio Estevan Brout - Project Lalaleads
+  og:image: https://daks2k3a4ib2z.cloudfront.net/63d8024f6ef3af4635a47d8a/640208687611d2093dab8e56_63f3ad1142d1b75efb40140c_hoverimg-p-500.webp
 ---

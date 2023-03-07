@@ -36,4 +36,13 @@ f_multi-images-projet:
 f_unique-id: 2
 tags: projects
 date: 2023-03-01T11:21:38.649Z
+seo:
+  additional_tags: <link rel="canonical"
+    href="https://www.estevan-brout.com/projects/eurobio-scientific/" />
+  title: Portfolio Estevan Brout - Projet Eurobio Scientific
+  description: The Eurobio Scientific group approached us to redesign their
+    website and give it a more modern image. After conducting a complete audit
+    of their platform, we were able to propose a migration from Drupal to
+    Webflow. This allowed for a considerable time-saving for the teams in
+    managing the back-office.
 ---

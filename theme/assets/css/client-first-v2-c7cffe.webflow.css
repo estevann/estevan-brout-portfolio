@@ -1968,10 +1968,10 @@ figcaption {
   -ms-flex-align: start;
   align-items: start;
   grid-auto-flow: column;
-  grid-auto-columns: 18.5rem;
+  grid-auto-columns: 1fr;
   grid-column-gap: 1.375rem;
-  -ms-grid-columns: 18.5rem;
-  grid-template-columns: 18.5rem;
+  -ms-grid-columns: 1fr 1fr 1fr auto;
+  grid-template-columns: 1fr 1fr 1fr auto;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
@@ -5091,8 +5091,11 @@ figcaption {
   }
 
   .project-details {
+    grid-auto-columns: auto;
     grid-column-gap: 1.375rem;
     grid-row-gap: 3rem;
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
     -ms-grid-rows: auto auto;
     grid-template-rows: auto auto;
   }
@@ -6052,6 +6055,7 @@ figcaption {
   .project-details {
     margin-top: 2.375rem;
     grid-auto-flow: row;
+    grid-column-gap: 2.375rem;
     grid-row-gap: 2.375rem;
     -ms-grid-columns: auto;
     grid-template-columns: auto;

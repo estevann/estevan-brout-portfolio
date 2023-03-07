@@ -36,4 +36,12 @@ f_multi-images-projet:
 f_unique-id: 1
 tags: projects
 date: 2023-03-06T12:03:09.433Z
+seo:
+  additional_tags: <link rel="canonical"
+    href="https://www.estevan-brout.com/projects/vera-granger/" />
+  description: Vera Granger needed a minimalist and innovative portfolio to
+    showcase her work. We based her identity on her inspirations and used
+    ideation workshops to come up with the design concept.
+  title: Portfolio Estevan Brout | Project Vera Granger
+  og:image: https://daks2k3a4ib2z.cloudfront.net/63d8024f6ef3af4635a47d8a/64020868969f220615e8c26a_63f3af7794786bdfea205c21_63f3aef6ef8a2d3e5c299525_img1-p-500.webp
 ---

@@ -45,4 +45,5 @@ seo:
     of their platform, we were able to propose a migration from Drupal to
     Webflow. This allowed for a considerable time-saving for the teams in
     managing the back-office.
+  og:image: https://daks2k3a4ib2z.cloudfront.net/63d8024f6ef3af4635a47d8a/64020868e04ff816957a54e3_63f3acf442d1b794ab401310_hoverimg-p-500.webp
 ---

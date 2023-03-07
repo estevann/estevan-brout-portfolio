@@ -38,4 +38,14 @@ f_multi-images-projet:
 f_unique-id: 3
 tags: projects
 date: 2023-03-06T11:59:53.761Z
+seo:
+  additional_tags: <link rel="canonical"
+    href="https://www.estevan-brout.com/projects/shoponyou/" />
+  description: Shoponyou approached us to redesign their website and make it more
+    immersive, particularly for their Wifi services for businesses. After
+    collaborating together, we imagined a completely new navigation experience.
+    This included scroll animations, a 3D experience on the homepage, and access
+    to 4 languages to promote the company's services.
+  title: Portfolio Estevan Brout |Project Shoponyou
+  og:image: https://daks2k3a4ib2z.cloudfront.net/63d8024f6ef3af4635a47d8a/64020869e3a4d2fd2d1946a8_63f3afabea965848764efa3f_63f3aed7b4e7fba1bba16e82_img1-p-500.webp
 ---

@@ -43,4 +43,6 @@ seo:
     audit complet de leur plateforme, nous avons pu proposer un passage de
     Drupal vers Webflow. Cela à permis un gain de temps considérable pour les
     équipes pour la gestion du back-office. "
+  additional_tags: <link rel="canonical"
+    href="https://www.estevan-brout.com/projects/eurobio-scientific-fr/" />
 ---

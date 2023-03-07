@@ -40,13 +40,13 @@ body .transition {display: block;}
   <div class="page-wrapper">
     {%- include "partials/global-style" -%}
     {%- include "partials/nav_component" -%}
-    <div class="main-wrapper">
-      <div class="section-project-overview">
+    <main class="main-wrapper">
+      <section class="section-project-overview">
         <div class="padding-global">
           <div class="container-large">
             <div class="padding-custom1">
-              <div class="project-overview-flex-wrapper">
-                <div class="project-overview-hero">
+              <section class="project-overview-flex-wrapper">
+                <header class="project-overview-hero">
                   {%- if f_french-version == true -%}<div hoverstagger="heading" class="project-title">
                     <h1 hoverstagger="text" class="project-overview-title">{{ title }}</h1>
                     <h2 hoverstagger="text" class="heading-style-h3-4">{{ f_sous-titre }}</h2>
@@ -125,9 +125,9 @@ body .transition {display: block;}
                       </div>
                     </div>{%- endunless -%}
                   </div>
-                </div>
+                </header>
                 <div data-w-id="47b9b57b-1d22-95f0-99da-554e463cb123" style="opacity:0" class="project-overview-image"><img loading="eager" data-sizes="[{&quot;max&quot;:767,&quot;size&quot;:&quot;91vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;78vw&quot;}]" src="{{ f_header-image.url }}" alt="{{ title }}" class="project-header-image"></div>
-                {%- if f_brief-projet -%}{%- if f_french-version == true -%}<div class="project-overview-brief">
+                {%- if f_brief-projet -%}{%- if f_french-version == true -%}<article class="project-overview-brief">
                   <div class="header_overview-brief">
                     <div class="brief-left">
                       <h2 data-w-id="c53db298-a23d-53d7-582f-56078e15d5de" style="opacity:0">{{ texts.3d7785a }}</h2>
@@ -137,7 +137,7 @@ body .transition {display: block;}
                     </div>
                     <div data-w-id="e00f6c02-9b3c-27e9-a585-0e4a52a5756a" style="opacity:0" class="brief-right"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;91vw&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;72vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;37vw&quot;}]" src="{{ f_image-brief-projet.url }}" alt="{{ title }}" class="brief-image"></div>
                   </div>
-                </div>{%- endif -%}{%- endif -%}
+                </article>{%- endif -%}{%- endif -%}
                 {%- if f_brief-project-en -%}{%- unless f_french-version == true -%}<div class="project-overview-brief">
                   <div class="header_overview-brief">
                     <div class="brief-left">
@@ -166,7 +166,7 @@ body .transition {display: block;}
                     </div>
                   </div></template></div>
                 </div>{%- endif -%}
-                {%- if f_additional-content-title -%}{%- if f_additionnal-text -%}{%- if f_french-version == true -%}<div class="project-overview-additional">
+                {%- if f_additional-content-title -%}{%- if f_additionnal-text -%}{%- if f_french-version == true -%}<article class="project-overview-additional">
                   <div class="header_overview-additional">
                     {%- if f_additionnal-image -%}<div class="additional-left"><img loading="eager" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" src="{{ f_additionnal-image.url }}" alt="{{ f_additional-content-title }}" class="brief-image"></div>{%- endif -%}
                     {%- if content -%}<div class="additional-left-embed">
@@ -179,8 +179,8 @@ body .transition {display: block;}
                       <p data-w-id="03bec39d-08eb-b503-d52b-15ae27e93572" style="opacity:0" class="text-size-medium">{{ f_additionnal-text }}</p>
                     </div>
                   </div>
-                </div>{%- endif -%}{%- endif -%}{%- endif -%}
-                {%- if f_additional-content-title-en -%}{%- if f_additional-text-en -%}{%- unless f_french-version == true -%}<div class="project-overview-additional">
+                </article>{%- endif -%}{%- endif -%}{%- endif -%}
+                {%- if f_additional-content-title-en -%}{%- if f_additional-text-en -%}{%- unless f_french-version == true -%}<article class="project-overview-additional">
                   <div class="header_overview-additional">
                     {%- if f_additionnal-image -%}<div class="additional-left"><img loading="eager" data-sizes="[{&quot;max&quot;:10000,&quot;size&quot;:&quot;100vw&quot;}]" src="{{ f_additionnal-image.url }}" alt="{{ f_additional-content-title }}" class="brief-image"></div>{%- endif -%}
                     {%- if content -%}<div class="additional-left-embed">
@@ -193,7 +193,7 @@ body .transition {display: block;}
                       <p data-w-id="abbeeef4-b646-dd7d-fc89-4594ec3014fc" style="opacity:0" class="text-size-medium">{{ f_additional-text-en }}</p>
                     </div>
                   </div>
-                </div>{%- endunless -%}{%- endif -%}{%- endif -%}
+                </article>{%- endunless -%}{%- endif -%}{%- endif -%}
                 {%- if f_multi-images-projet-2 -%}<div class="project-overview-images">
                   {%- assign setItems = f_multi-images-projet-2 -%}<div class="project-images-collection-wrapper w-dyn-list">
                     {%- unless setItems.length == 0 -%}<div role="list" class="project-images-list w-dyn-items">
@@ -226,7 +226,7 @@ $( document ).ready(function() {
 }
 </style>
                 </div>
-              </div>
+              </section>
               <div class="background_decoration">
                 <div class="background_galaxy-hero-shadow"></div>
                 <div class="background_galaxy-hero w-embed w-iframe"><iframe src="https://background-galaxy-stars.netlify.app/" frameborder="0" width="100%" height="100%" loading="eager"></iframe></div>
@@ -238,7 +238,7 @@ $( document ).ready(function() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
       {%- if f_french-version == true -%}<div id="nextprojectfr" data-w-id="7743ffcb-9fb5-4c04-e73f-c27c5459ca4a" class="section-next-project-fr">
         <div class="padding-global">
           <div class="container-large">
@@ -295,7 +295,7 @@ $( document ).ready(function() {
           </div>
         </div>
       </div>{%- endunless -%}
-    </div>
+    </main>
     <div class="project-shuffle w-embed w-script"><script type="application/ld+json">
 {
     "@context": "https://schema.org",

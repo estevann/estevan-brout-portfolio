@@ -732,7 +732,7 @@ figcaption {
 }
 
 .text-color-grey {
-  color: #4572d4;
+  color: #467ad9;
 }
 
 .fs-styleguide_2-col {
@@ -1147,7 +1147,7 @@ figcaption {
 }
 
 .heading-style-h4 {
-  color: #4572d4;
+  color: #467ad9;
   font-size: 1.125rem;
   line-height: 1.4;
   font-weight: 400;
@@ -1236,7 +1236,7 @@ figcaption {
 .fs-styleguide_version {
   z-index: 5;
   font-family: Heebo, sans-serif;
-  color: #4572d4;
+  color: #467ad9;
   font-weight: 500;
   text-decoration: none;
 }
@@ -1784,8 +1784,8 @@ figcaption {
   bottom: auto;
   width: 25%;
   height: 46%;
-  border-top: 2px solid #4572d4;
-  border-left: 2px solid #4572d4;
+  border-top: 2px solid #467ad9;
+  border-left: 2px solid #467ad9;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   border-bottom-left-radius: 2px;
@@ -1801,8 +1801,8 @@ figcaption {
   bottom: auto;
   width: 25%;
   height: 46%;
-  border-top: 2px solid #4572d4;
-  border-left: 2px solid #4572d4;
+  border-top: 2px solid #467ad9;
+  border-left: 2px solid #467ad9;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   border-bottom-left-radius: 2px;
@@ -1816,8 +1816,8 @@ figcaption {
   bottom: auto;
   width: 5%;
   height: 12%;
-  border-top: 2px solid #4572d4;
-  border-right: 2px solid #4572d4;
+  border-top: 2px solid #467ad9;
+  border-right: 2px solid #467ad9;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
@@ -1831,8 +1831,8 @@ figcaption {
   bottom: 0%;
   width: 25%;
   height: 46%;
-  border-right: 2px solid #4572d4;
-  border-bottom: 2px solid #4572d4;
+  border-right: 2px solid #467ad9;
+  border-bottom: 2px solid #467ad9;
   border-top-right-radius: 2px;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
@@ -1846,8 +1846,8 @@ figcaption {
   bottom: 0%;
   width: 5%;
   height: 12%;
-  border-bottom: 2px solid #4572d4;
-  border-left: 2px solid #4572d4;
+  border-bottom: 2px solid #467ad9;
+  border-left: 2px solid #467ad9;
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
@@ -1861,8 +1861,8 @@ figcaption {
   bottom: auto;
   width: 5%;
   height: 12%;
-  border-top: 2px solid #4572d4;
-  border-right: 2px solid #4572d4;
+  border-top: 2px solid #467ad9;
+  border-right: 2px solid #467ad9;
   -webkit-filter: blur(6px);
   filter: blur(6px);
 }
@@ -1875,8 +1875,8 @@ figcaption {
   bottom: 0%;
   width: 25%;
   height: 46%;
-  border-right: 2px solid #4572d4;
-  border-bottom: 2px solid #4572d4;
+  border-right: 2px solid #467ad9;
+  border-bottom: 2px solid #467ad9;
   -webkit-filter: blur(6px);
   filter: blur(6px);
 }
@@ -1889,8 +1889,8 @@ figcaption {
   bottom: 0%;
   width: 5%;
   height: 12%;
-  border-bottom: 2px solid #4572d4;
-  border-left: 2px solid #4572d4;
+  border-bottom: 2px solid #467ad9;
+  border-left: 2px solid #467ad9;
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
@@ -1996,7 +1996,7 @@ figcaption {
 .project-details-decorations {
   width: 160px;
   margin-top: -0.125rem;
-  border-bottom: 1px solid #4572d4;
+  border-bottom: 1px solid #467ad9;
 }
 
 .project-location-flex {
@@ -2142,7 +2142,7 @@ figcaption {
 .brief-decoration {
   width: 160px;
   margin-top: 0.125rem;
-  border-bottom: 1px solid #4572d4;
+  border-bottom: 1px solid #467ad9;
 }
 
 .brief-right {
@@ -2263,7 +2263,7 @@ figcaption {
   padding: 0px 0px 1.125rem 0.125rem;
   border-style: solid;
   border-width: 0px 0px 1px;
-  border-color: #000 #000 #4572d4;
+  border-color: #000 #000 #467ad9;
   background-color: hsla(0, 0%, 100%, 0);
   font-family: Heebo, sans-serif;
   color: #fff;
@@ -2271,11 +2271,11 @@ figcaption {
 }
 
 .form_field:focus-visible {
-  border-bottom-color: #4572d4;
+  border-bottom-color: #467ad9;
 }
 
 .form_field[data-wf-focus-visible] {
-  border-bottom-color: #4572d4;
+  border-bottom-color: #467ad9;
 }
 
 .form_field::-webkit-input-placeholder {
@@ -2333,7 +2333,7 @@ figcaption {
   height: 0.75rem;
   border-style: solid;
   border-width: 1px;
-  border-color: #4572d4;
+  border-color: #467ad9;
   font-family: Heebo, sans-serif;
 }
 
@@ -2346,7 +2346,7 @@ figcaption {
   height: 0.75rem;
   border-style: solid;
   border-width: 1px;
-  border-color: #4572d4;
+  border-color: #467ad9;
   -webkit-filter: blur(6px);
   filter: blur(6px);
   font-family: Heebo, sans-serif;
@@ -2622,8 +2622,8 @@ figcaption {
   bottom: auto;
   width: 5%;
   height: 12%;
-  border-top: 2px solid #4572d4;
-  border-left: 2px solid #4572d4;
+  border-top: 2px solid #467ad9;
+  border-left: 2px solid #467ad9;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   border-bottom-left-radius: 2px;
@@ -2637,8 +2637,8 @@ figcaption {
   bottom: auto;
   width: 5%;
   height: 12%;
-  border-top: 2px solid #4572d4;
-  border-left: 2px solid #4572d4;
+  border-top: 2px solid #467ad9;
+  border-left: 2px solid #467ad9;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   border-bottom-left-radius: 2px;
@@ -2654,8 +2654,8 @@ figcaption {
   bottom: 0%;
   width: 5%;
   height: 12%;
-  border-right: 2px solid #4572d4;
-  border-bottom: 2px solid #4572d4;
+  border-right: 2px solid #467ad9;
+  border-bottom: 2px solid #467ad9;
   -webkit-filter: blur(6px);
   filter: blur(6px);
 }
@@ -2668,8 +2668,8 @@ figcaption {
   bottom: 0%;
   width: 5%;
   height: 12%;
-  border-right: 2px solid #4572d4;
-  border-bottom: 2px solid #4572d4;
+  border-right: 2px solid #467ad9;
+  border-bottom: 2px solid #467ad9;
   border-top-right-radius: 2px;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
@@ -2763,8 +2763,8 @@ figcaption {
   right: 0%;
   bottom: 0%;
   width: 0%;
-  border-top: 2px solid #4572d4;
-  border-bottom: 2px solid #4572d4;
+  border-top: 2px solid #467ad9;
+  border-bottom: 2px solid #467ad9;
   border-radius: 2px;
 }
 
@@ -2775,8 +2775,8 @@ figcaption {
   right: 0%;
   bottom: 0%;
   width: 0%;
-  border-top: 2px solid #4572d4;
-  border-bottom: 2px solid #4572d4;
+  border-top: 2px solid #467ad9;
+  border-bottom: 2px solid #467ad9;
   -webkit-filter: blur(6px);
   filter: blur(6px);
 }
@@ -2789,8 +2789,8 @@ figcaption {
   bottom: auto;
   width: 0%;
   height: 0%;
-  border-top: 2px solid #4572d4;
-  border-right: 2px solid #4572d4;
+  border-top: 2px solid #467ad9;
+  border-right: 2px solid #467ad9;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
@@ -2804,8 +2804,8 @@ figcaption {
   bottom: 0%;
   width: 0%;
   height: 0%;
-  border-right: 2px solid #4572d4;
-  border-bottom: 2px solid #4572d4;
+  border-right: 2px solid #467ad9;
+  border-bottom: 2px solid #467ad9;
   border-radius: 0px 2px 2px;
 }
 
@@ -2817,8 +2817,8 @@ figcaption {
   bottom: 0%;
   width: 0%;
   height: 0%;
-  border-bottom: 2px solid #4572d4;
-  border-left: 2px solid #4572d4;
+  border-bottom: 2px solid #467ad9;
+  border-left: 2px solid #467ad9;
   border-radius: 2px 0px 2px 2px;
 }
 
@@ -2830,8 +2830,8 @@ figcaption {
   bottom: auto;
   width: 0%;
   height: 0%;
-  border-top: 2px solid #4572d4;
-  border-left: 2px solid #4572d4;
+  border-top: 2px solid #467ad9;
+  border-left: 2px solid #467ad9;
   border-radius: 2px 2px 0px;
 }
 
@@ -2844,8 +2844,8 @@ figcaption {
   z-index: 6;
   width: 0%;
   height: 0%;
-  border-bottom: 2px solid #4572d4;
-  border-left: 2px solid #4572d4;
+  border-bottom: 2px solid #467ad9;
+  border-left: 2px solid #467ad9;
   border-radius: 2px 0px 2px 2px;
   -webkit-filter: blur(6px);
   filter: blur(6px);
@@ -2860,8 +2860,8 @@ figcaption {
   z-index: 9;
   width: 0%;
   height: 0%;
-  border-right: 2px solid #4572d4;
-  border-bottom: 2px solid #4572d4;
+  border-right: 2px solid #467ad9;
+  border-bottom: 2px solid #467ad9;
   border-radius: 0px 2px 2px;
   -webkit-filter: blur(6px);
   filter: blur(6px);
@@ -2876,8 +2876,8 @@ figcaption {
   z-index: 9;
   width: 0%;
   height: 0%;
-  border-top: 2px solid #4572d4;
-  border-right: 2px solid #4572d4;
+  border-top: 2px solid #467ad9;
+  border-right: 2px solid #467ad9;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
@@ -2893,8 +2893,8 @@ figcaption {
   bottom: auto;
   width: 0%;
   height: 0%;
-  border-top: 2px solid #4572d4;
-  border-left: 2px solid #4572d4;
+  border-top: 2px solid #467ad9;
+  border-left: 2px solid #467ad9;
   border-radius: 2px 2px 0px;
   -webkit-filter: blur(6px);
   filter: blur(6px);
@@ -3022,7 +3022,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #4572d4;
+  background-color: #467ad9;
 }
 
 .transition-color-right {
@@ -3039,7 +3039,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #4572d4;
+  background-color: #467ad9;
 }
 
 .header_flex-contact {
@@ -3213,7 +3213,7 @@ figcaption {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  background-color: #4572d4;
+  background-color: #467ad9;
 }
 
 .footer_link-blur {
@@ -3228,7 +3228,7 @@ figcaption {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  background-color: #4572d4;
+  background-color: #467ad9;
   -webkit-filter: blur(6px);
   filter: blur(6px);
 }
@@ -3266,7 +3266,7 @@ figcaption {
   height: 0rem;
   border-style: solid;
   border-width: 2px;
-  border-color: #4572d4;
+  border-color: #467ad9;
   border-radius: 100%;
 }
 
@@ -3276,7 +3276,7 @@ figcaption {
   height: 0rem;
   border-style: solid;
   border-width: 2px;
-  border-color: #4572d4;
+  border-color: #467ad9;
   border-radius: 100%;
   -webkit-filter: blur(6px);
   filter: blur(6px);
@@ -3386,7 +3386,7 @@ figcaption {
   display: block;
   width: 8.625rem;
   height: 0.0625rem;
-  background-color: #4572d4;
+  background-color: #467ad9;
   -webkit-filter: blur(6px);
   filter: blur(6px);
 }
@@ -3543,7 +3543,7 @@ figcaption {
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
-  background-color: #4572d4;
+  background-color: #467ad9;
 }
 
 .background_decoration-line {
@@ -3555,7 +3555,7 @@ figcaption {
   z-index: -5;
   width: 100%;
   height: 0.125rem;
-  background-color: #4572d4;
+  background-color: #467ad9;
 }
 
 .background_decoration-blur {
@@ -3567,7 +3567,7 @@ figcaption {
   z-index: -5;
   width: 100%;
   height: 0.125rem;
-  background-color: #4572d4;
+  background-color: #467ad9;
   -webkit-filter: blur(6px);
   filter: blur(6px);
 }
@@ -3580,8 +3580,8 @@ figcaption {
   bottom: auto;
   width: 1.25rem;
   height: 0.75rem;
-  border-top: 0.125rem solid #4572d4;
-  border-left: 0.125rem solid #4572d4;
+  border-top: 0.125rem solid #467ad9;
+  border-left: 0.125rem solid #467ad9;
 }
 
 .nav_mobile-button-decoration-right {
@@ -3592,8 +3592,8 @@ figcaption {
   bottom: 0%;
   width: 1.25rem;
   height: 0.75rem;
-  border-right: 0.125rem solid #4572d4;
-  border-bottom: 0.125rem solid #4572d4;
+  border-right: 0.125rem solid #467ad9;
+  border-bottom: 0.125rem solid #467ad9;
 }
 
 .nav_mobile-button-blur-left {
@@ -3604,8 +3604,8 @@ figcaption {
   bottom: auto;
   width: 1.25rem;
   height: 0.75rem;
-  border-top: 0.125rem solid #4572d4;
-  border-left: 0.125rem solid #4572d4;
+  border-top: 0.125rem solid #467ad9;
+  border-left: 0.125rem solid #467ad9;
   -webkit-filter: blur(3px);
   filter: blur(3px);
 }
@@ -3618,8 +3618,8 @@ figcaption {
   bottom: 0%;
   width: 1.25rem;
   height: 0.75rem;
-  border-right: 0.125rem solid #4572d4;
-  border-bottom: 0.125rem solid #4572d4;
+  border-right: 0.125rem solid #467ad9;
+  border-bottom: 0.125rem solid #467ad9;
   -webkit-filter: blur(3px);
   filter: blur(3px);
 }
@@ -3884,7 +3884,7 @@ figcaption {
   z-index: -5;
   width: 11rem;
   height: 11rem;
-  background-color: #4572d4;
+  background-color: #467ad9;
   opacity: 1;
   -webkit-filter: blur(6.1rem);
   filter: blur(6.1rem);
@@ -4087,7 +4087,7 @@ figcaption {
   width: 1rem;
   height: 1rem;
   border-radius: 100%;
-  background-color: #4572d4;
+  background-color: #467ad9;
 }
 
 .section-blank {
@@ -4121,7 +4121,7 @@ figcaption {
   width: 12rem;
   height: 12rem;
   border-radius: 100%;
-  background-color: #4572d4;
+  background-color: #467ad9;
   -webkit-filter: blur(60px);
   filter: blur(60px);
 }
@@ -4241,7 +4241,7 @@ figcaption {
   z-index: -2;
   width: 100%;
   height: 0.125rem;
-  background-color: #4572d4;
+  background-color: #467ad9;
   -webkit-filter: blur(6px);
   filter: blur(6px);
 }
@@ -4255,7 +4255,7 @@ figcaption {
   z-index: 2;
   width: 100%;
   height: 0.125rem;
-  background-color: #4572d4;
+  background-color: #467ad9;
 }
 
 .next-project-galaxy-hero {
@@ -5943,6 +5943,10 @@ figcaption {
 
   .hide-mobile-portrait {
     display: none;
+  }
+
+  .heading-style-h4 {
+    color: #467ad9;
   }
 
   .padding-section-medium {

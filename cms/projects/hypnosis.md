@@ -37,4 +37,13 @@ f_multi-images-projet:
 f_unique-id: 4
 tags: projects
 date: 2023-03-01T11:19:16.228Z
+seo:
+  title: Portfolio Estevan Brout - Projet Hypnosis
+  description: Hypnosis is an affiliate marketing blog with the ambition to expand
+    into the automotive and culinary industries. We designed a masculine
+    identity with strong colors and bold typography to promote the products and
+    immerse the audience in the Hypnosis universe.
+  og:image: https://daks2k3a4ib2z.cloudfront.net/63d8024f6ef3af4635a47d8a/640208693998ff67e8664a81_63f3acd95e36035122e75a7f_hoverimg%2520hypnosis-p-500.webp
+  additional_tags: <link rel="canonical"
+    href="https://www.estevan-brout.com/projects/hypnosis/" />
 ---

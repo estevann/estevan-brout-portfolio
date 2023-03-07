@@ -46,4 +46,14 @@ f_multi-images-projet-2:
 f_french-version: true
 tags: projects
 date: 2023-03-06T12:01:49.824Z
+seo:
+  og:image: https://daks2k3a4ib2z.cloudfront.net/63d8024f6ef3af4635a47d8a/63f3ad1142d1b75efb40140c_hoverimg-p-130x130q80.webp
+  title: Portfolio Estevan Brout - Projet Lalaleads
+  description: L’objectif était de moderniser le site Lalaleads avec la nouvelle
+    charte graphique conçue par leurs équipes. Avec DropD, nous avons réalisé
+    des illustrations et repensés la navigation et l’expérience utilisateur en
+    collaboration avec leurs équipes. Nous avons développé le site sur Webflow
+    et les avons formés pour prendre en main le back-office.
+  additional_tags: <link rel="canonical"
+    href="https://www.estevan-brout.com/projects/lalaleads-fr/" />
 ---

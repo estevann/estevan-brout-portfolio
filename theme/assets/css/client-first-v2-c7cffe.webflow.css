@@ -4842,6 +4842,21 @@ figcaption {
   display: none;
 }
 
+.section-cta-en {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  cursor: none;
+}
+
+.cta-heading {
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  font-weight: 700;
+  letter-spacing: 0.125rem;
+}
+
 @media screen and (max-width: 991px) {
   .padding-xlarge {
     padding: 3rem;
@@ -5851,6 +5866,10 @@ figcaption {
   .client-foreground {
     top: -26%;
     height: 150%;
+  }
+
+  .cta-heading {
+    font-size: 0.875rem;
   }
 }
 
